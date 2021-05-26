@@ -10,3 +10,4 @@ const fs_readdir = util.promisify(fs.readdir);
     console.log(fn);
   }
 }) ().catch(err => {console.error(err)});
+// And in case we catch an error, we show it in the console
